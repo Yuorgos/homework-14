@@ -21,34 +21,14 @@ body {
   justify-content: center;
 }
 
+.footer a {
+  color: black;
+}
+
 .navbar {
-  padding: 0px;
-  z-index: 9999;
+  padding: 0;
 }
 
 .container-fluid {
   background-color: #7fffd4;
-  height: 50px;
-}
-
-.navbar-collapse.show {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  -webkit-backdrop-filter: blur(8px);
-          backdrop-filter: blur(8px);
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 999;
-}
-
-.container-fluid {
-  background-color: aquamarine;
-  height: 50px;
-}
-
-.navbar-toggler {
-  position: relative;
-  z-index: 10000;
 }/*# sourceMappingURL=style.css.map */
