@@ -1,0 +1,23 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+   
+    background: linear-gradient(to right, #ffcccc, #ff99cc);
+}
+.container {   
+    flex: 1;
+}
+
+.footer {    
+    background: #7fffd4;
+    margin-top: 10px; 
+    text-align: center;
+    width: 100%;
+
+}
+.row {
+    justify-content: center;
+}
